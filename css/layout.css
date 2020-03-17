@@ -1,0 +1,66 @@
+body {
+    padding: 1em;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-left {
+    height: 170px;
+    display:block;
+  }
+  
+  .header-left .avatar {
+    height: 170px;
+    float:left;
+  }
+  
+  .header-left h1 {
+    margin-left: 151px;
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    padding: 0 10px 0 5px;
+    line-height: 1em;
+  }
+  
+  .header-left h2 {
+    margin-left: 151px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    letter-spacing: .05em;
+    padding: 25px 10px 0 7px;
+  }
+  
+  .ham-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: .1em;
+  }
+  
+  .social i {
+    padding: .2em;
+  }
+  
+  .ham i {
+    padding: .2em;
+  }
+  .social a {
+    color: black;
+  }
+  
+  .social a:hover, .social a:focus {
+    text-decoration: none;
+  }
+  
+  .social i:hover {
+    background-color: #aaa;
+    border-radius: .5em;
+  }
+  
+  footer {
+    margin: 1em 0 1em 0;
+  }

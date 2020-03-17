@@ -1,0 +1,139 @@
+.main-nav {
+    display:none;
+  }
+  
+  .mobile-nav ul {
+    display: none;
+  }
+  
+  .mobile-nav:hover ul{
+    display: block;
+    list-style-type: none;
+    margin-left: 0;
+  }
+  
+  .mobile-nav a, .mobile-nav a:link, .mobile-nav a:active {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .mobile-nav a:hover, .mobile-nav a:focus {
+    text-decoration: none;
+  }
+  
+  .ham:hover {
+    background-color: #aaa;
+  }
+  
+  .ham li {
+    padding: .2em;
+    display: block;
+  }
+  
+  .ham li:hover {
+    background-color: #777;
+  }
+  
+  .template {
+    display: none;
+  }
+  
+  #projects header {
+    padding: 5px;
+  }
+  
+  #projects h2 {
+    font-size: 1.4em;
+    padding: .2em 0 0 0;
+  }
+  
+  #projects h3 {
+    font-size: 1em;
+    padding: .2em 0 0 0;
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  #projects p:first-child {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  #projects p:first-child em {
+    text-decoration:underline;
+  }
+  
+  #projects section {
+    padding: 5px;
+  }
+  
+  #projects section img {
+    width: 267px;
+    height: 200px;
+  }
+  
+  #projects section img:hover {
+    transition-duration:.2s;
+    transition-delay:0s;
+    transition-timing-function: linear;
+    box-shadow:0px 0px 10px 2px #777;
+  }
+  
+  #projects a, #projects a:link, #projects a:active {
+    text-decoration: none;
+    color: #777;
+  }
+  
+  #projects a:hover, #projects a:focus {
+    text-decoration: none;
+  }
+  
+  .read-on {
+    padding: 5px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    .ham, .social {
+      display: none;
+    }
+    .main-nav {
+      display:block;
+      margin-left: 151px;
+      padding: 51px 0 0 7px;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  
+    .main-nav a, .main-nav a:link, .main-nav a:active {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .main-nav a:hover, .main-nav a:focus {
+      text-decoration: none;
+    }
+  
+    .main-nav ul {
+      margin-left: 0;
+      list-style-type: none;
+    }
+  
+    .main-nav li {
+      display: inline-block;
+      border-bottom: 1px solid #ccc;
+      display: inline;
+      margin-right: 1em;
+    }
+  
+    .main-nav li:hover {
+      border-bottom: 3px solid #ccc;
+    }
+  
+    .social {
+      display: inline-block;
+      position: fixed;
+      right: 10px;
+      top: 10px;
+    }
+  
+  }
